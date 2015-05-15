@@ -1,0 +1,80 @@
+<!-- HTML Styles CSS -->
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Internal Styling (Internal CSS) -->
+<style>
+body {background-color:lightgrey}
+h1{
+<!-- CSS Fonts -->
+	color:blue;
+	font-family:verdana;
+	font-size:300%;
+}
+
+p{
+<!-- CSS Fonts -->
+	color:red;
+	font-family:courier;
+	font-size:160%;
+<!-- The CSS Box Model -->
+<!-- CSS border -->
+	border:1px solid grey;
+<!-- CSS padding -->
+	padding:10px;
+<!-- CSS margin -->
+	margin:30px;
+}
+
+<!-- The id Attributes -->
+p#p01{
+	color: blue;
+}
+
+<!-- The class Attributes -->
+p.error{
+	color: red;
+}
+</style>
+
+<!-- External Styling (External CSS) -->
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<h1>This is heading</h1>
+<p>This is a paragraph.</p>
+
+<!-- The id Attributes - cont. -->
+<p id="p01">I am different</p>
+
+<!-- The class Attributes - cont. -->
+<p class="error">I am different too.</p>
+
+<!-- Inline Styling (Inline CSS) -->
+<h1 style="color:blue">This is a Blue Heading</h1>
+
+<!--
+Chapter Summary
+-Use the HTML style attribute for inline styling
+-Use the HTML <style> element to define internal CSS
+-Use the HTML <link> element to define internal CSS file
+-Use the HTML <head> element to store <style> and <link> elements
+-Use the CSS color property for text colors
+-Use the CSS font-family property for text fonts
+-Use the CSS font-size property for text sizes
+-Use the CSS border property for visible element borders
+-Use the CSS padding property for space inside the border
+-Use the CSS margin property for space outside the border
+-->
+
+<!-- 
+HTML Style Tags
+Tag         |          Description
+<style>                Defines style information for a document
+<link>                 Defines a link between a document and an external resource
+-->
+
+</body>
+</html>
